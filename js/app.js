@@ -196,7 +196,7 @@ function form(selectedFunction){
         <input type="text" class="form-control" id="input_two" placeholder="${formData.input_field[1].placeholder}" required></div>`;
     }
     
-    formHtml += `</div><button class="btn btn-success" onclick="submit()">Submit</button>`;
+    formHtml += `</div><div class="d-flex justify-content-center"><button class="btn btn-success" onclick="submit()">Submit</button></div>`;
 
     document.getElementById('form').innerHTML = formHtml;
 }
