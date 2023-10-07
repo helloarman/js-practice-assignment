@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Practice</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
+        <!-- ALL CSS -->
+        <!-- Jquery -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css" />
+
+        <!-- googlefonts CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400&display=swap"
+            rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <div
+            class="d-flex justify-content-center align-items-center vh-100 flex-column">
+            <div class="pb-5">
+                <h5 class="text-center">Select Function</h5>
+                <select id="select_function" class="form-select"
+                aria-label="Default select" onchange="functionSelect()">
+                <option value selected>Select Function</option>
+                <option value="0">1. addition</option>
+                <option value="1">2. convert</option>
+                <option value="2">3. Next Number</option>
+                <option value="3">4. triArea</option>
+                <option value="4">5. getFirstValue</option>
+                <option value="5">6. calcAge</option>
+                <option value="6">7. circuitPower</option>
+                <option value="7">8. nextEdge</option>
+                <option value="8">9. remainder</option>
+                <option value="9">10. giveMeSomething</option>
+                <option value="10">11. squared</option>
+                <option value="11">12. lessThanOrEqualToZero</option>
+                <option value="12">13. sumPolygon</option>
+                <option value="13">14. nameString</option>
+                <option value="14">15. lessThan100</option>
+                </select>
+            </div>
+            
+            <div class="bg-light p-5 shadow-sm rounded">
+                <div class="alert alert-danger py-2 my-3 d-none" role="alert" id="error">
+                    
+                </div>
+                <div id="form">
+                    No Selected Function!
+                </div>
+                
+            </div>
+            <h5 class="text-center mt-5">Output</h5>
+            <h1><span id="output">0</span></h1>
+        </div>
+
+        <!-- ALL JS -->
+        <!-- Bootstrap JS -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+
+        <!-- App JS -->
+        <script src="js/app.js"></script>
+        <script src="js/addition.js"></script>
+        <script src="js/convert.js"></script>
+        <script src="js/nextNumber.js"></script>
+        <script src="js/triArea.js"></script>
+        <script src="js/getFirstValue.js"></script>
+        <script src="js/calcAge.js"></script>
+        <script src="js/circuitPower.js"></script>
+        <script src="js/nextEdge.js"></script>
+        <script src="js/remainder.js"></script>
+        <script src="js/giveMeSomething.js"></script>
+        <script src="js/squared.js"></script>
+        <script src="js/lessThanOrEqualToZero.js"></script>
+        <script src="js/sumPolygon.js"></script>
+        <script src="js/nameString.js"></script>
+        <script src="js/lessThan100.js"></script>
+    </body>
+
+</html>
